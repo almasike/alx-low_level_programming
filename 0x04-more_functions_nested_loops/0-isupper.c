@@ -1,22 +1,17 @@
 #include "main.h"
 
-
 /**
- * main -Entry point
- *
- * Return: Always 0
+ * _isupper - checks for lowercase character
+ * @c: The charaxter to be checked
+ * Return: 1 of uppercasr character or 0 for anything else
  */
 
-int main(void)
+int _isupper(int c)
+
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+if (c >= 65 && c <= 90)
+{
+return (1);
+}
 return (0);
 }
